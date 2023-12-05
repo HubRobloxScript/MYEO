@@ -3,7 +3,7 @@ local Window = Library.CreateLib("MYENO_X", "DarkTheme")
 
 local Tab = Window:NewTab("others")
 local Section = Tab:NewSection("Main")
-Section:NewLabel("https://discord.gg/3jFj98yF")
+local discord = Tab:NewSection("https://discord.gg/3jFj98yF")
 Section:NewButton("infinite-yield", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
